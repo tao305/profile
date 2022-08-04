@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body{
+  background: rgb(240, 234, 234);
+  color: 06283D;
+  font-size: 25px;
+  font-family: Helvetica;
+
+}
+h1{
+  font-family: Courier;
+  color: rgb(81, 52, 52);
+  font-weight: lighter;
+  font-size: 50px;
+}
+h2 {
+  font-family: Courier;
+  color: black;
+  font-weight: lighter;
+  font-size: 30px;
+}
+img{
+  border-radius: 50%;
+
+}
+.card{
+  background-color: rgb(137, 168, 171);
+  margin: 0  auto;
+  width: 600px;
+  text-align: center;
+}
+.container{
+  background-color: rgb(196, 218, 209);
+}
+ul{
+  list-style-type: none;
+  display: inline-flex;
+  padding-left: 0px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
